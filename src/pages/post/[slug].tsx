@@ -56,7 +56,7 @@ export default function Post({ post }: PostProps) {
 
   return (
     <>
-      <Header title={`${post.data.title} | spacetraveling`} />
+      <Header title={`spacetraveling | ${post.data.title}`} />
 
       <img
         className={styles.banner}
